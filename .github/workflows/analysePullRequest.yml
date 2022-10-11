@@ -20,5 +20,5 @@ jobs:
         uses: actions/setup-node@v3.5.0 
         with: 
           node-version: 16.x
-      - run: npm run build
+      - run: npm --prefix hello-world run build
       - run: npm run test 
